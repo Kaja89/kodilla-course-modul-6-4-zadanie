@@ -20,4 +20,8 @@ public class Circle implements Shape {
     public double getField(){
         return 2 * 3.14 * r;
     }
+
+    public String toString(){
+        return name + " " + "field: " + getField();
+    }
 }

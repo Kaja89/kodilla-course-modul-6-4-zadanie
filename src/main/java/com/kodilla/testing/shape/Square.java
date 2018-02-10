@@ -20,4 +20,8 @@ public class Square implements Shape {
     public double getField(){
         return a*a;
     }
+
+    public String toString(){
+        return name + " " + " field " +  getField();
+    }
 }

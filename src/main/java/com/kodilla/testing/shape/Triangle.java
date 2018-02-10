@@ -26,4 +26,8 @@ public class Triangle  implements Shape{
     public double getField(){
         return (a/2)*h;
     }
+
+    public String toString(){
+        return name + " " + " field " + getField();
+    }
 }
