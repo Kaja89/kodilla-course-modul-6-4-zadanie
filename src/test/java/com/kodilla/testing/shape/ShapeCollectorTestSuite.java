@@ -35,7 +35,7 @@ public class ShapeCollectorTestSuite {
         boolean result = collector.addFigure(circle);
 
         //Then
-       // Assert.assertEquals(null, collector.getFigure(0));
+        Assert.assertTrue(collector.shapes.isEmpty());
         Assert.assertFalse(result);
     }
 
@@ -64,7 +64,7 @@ public class ShapeCollectorTestSuite {
 
         //Then
         Assert.assertTrue(result);
-       // Assert.assertEquals(null, figures);
+        Assert.assertTrue(figures.isEmpty());
     }
 
     @Test
